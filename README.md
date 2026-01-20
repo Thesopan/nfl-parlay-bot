@@ -1,8 +1,10 @@
 ﻿# NFL Parlay Bot
 
-CLI that estimates per-leg hit probabilities and prints an overall parlay %.
+CLI that estimates per-leg NFL prop hit rates and overall parlay probability.
 
 ## Quick Start
-1. cd C:\Users\theso\OneDrive\Desktop\nfl-parlay-bot
-2. & .\.venv\Scripts\Activate.ps1
-3. python .\parlay_bot.py
+```powershell
+python -m venv .venv
+& .\.venv\Scripts\Activate.ps1
+pip install -r requirements.txt
+python .\parlay_bot.py
