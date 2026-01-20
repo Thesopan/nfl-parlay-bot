@@ -1,0 +1,6 @@
+﻿pandas
+numpy
+scipy
+nfl-data-py
+pyarrow
+polars
